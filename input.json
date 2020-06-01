@@ -1,0 +1,51 @@
+{
+  "host": "84.201.150.138",
+  "port": 8086,
+  "database": "jmeter",
+  "startTime": "2020-05-20 10:55:00",
+  "endTime": "2020-05-20 11:56:00",
+  "stages": [
+    {
+      "VU": 10
+    },
+    {
+      "VU": 20
+    },
+    {
+      "VU": 30
+    },
+    {
+      "VU": 40
+    },
+    {
+      "VU": 50
+    }
+  ],
+  "transactions": [
+    {
+      "name": "HTTP Request - homepage",
+      "intence": 11000,
+      "SLA": 1.9
+    },
+    {
+      "name": "Search Request",
+      "intence": 5000,
+      "SLA": 1.74
+    },
+    {
+      "name": "T01_homepage",
+      "intence": 250,
+      "SLA": 1.84
+    },
+    {
+      "name": "T02_search",
+      "intence": 250,
+      "SLA": 40
+    },
+    {
+      "name": "all",
+      "intence": 12000,
+      "SLA": 120
+    }
+  ]
+}
