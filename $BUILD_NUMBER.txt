@@ -1,0 +1,56 @@
+Stage 0
+Transaction: HTTP Request - homepage, Amount/h: 10644.0, Success/h: 10644.0, Error/h: 0
+Минимальная треб. интенсивность 11000
+Transaction: Search Request, Amount/h: 10416.0, Success/h: 10416.0, Error/h: 0
+Transaction: T01_homepage, Amount/h: 10644.0, Success/h: 10644.0, Error/h: 0
+Transaction: T02_search, Amount/h: 10416.0, Success/h: 10416.0, Error/h: 0
+Transaction: all, Amount/h: 20352.0, Success/h: 18936.0, Error/h: 1416.0
+Stage 1
+Transaction: HTTP Request - homepage, Amount/h: 23280.0, Success/h: 23280.0, Error/h: 0
+Transaction: Search Request, Amount/h: 23028.0, Success/h: 23028.0, Error/h: 0
+Transaction: T01_homepage, Amount/h: 23280.0, Success/h: 23280.0, Error/h: 0
+Transaction: T02_search, Amount/h: 23028.0, Success/h: 23028.0, Error/h: 0
+Transaction: all, Amount/h: 41376.0, Success/h: 31512.0, Error/h: 9864.0
+Stage 2
+Transaction: HTTP Request - homepage, Amount/h: 44568.0, Success/h: 44568.0, Error/h: 0
+Transaction: Search Request, Amount/h: 44388.0, Success/h: 44388.0, Error/h: 0
+Transaction: T01_homepage, Amount/h: 44568.0, Success/h: 44568.0, Error/h: 0
+Transaction: T02_search, Amount/h: 44388.0, Success/h: 44388.0, Error/h: 0
+Transaction: all, Amount/h: 59304.0, Success/h: 0.0, Error/h: 59304.0
+Stage 3
+Transaction: HTTP Request - homepage, Amount/h: 49716.0, Success/h: 49716.0, Error/h: 0
+Transaction: Search Request, Amount/h: 49572.0, Success/h: 49572.0, Error/h: 0
+Transaction: T01_homepage, Amount/h: 49716.0, Success/h: 49716.0, Error/h: 0
+Transaction: T02_search, Amount/h: 49572.0, Success/h: 49572.0, Error/h: 0
+Transaction: all, Amount/h: 66264.0, Success/h: 216.0, Error/h: 66048.0
+Stage 4
+Transaction: HTTP Request - homepage, Amount/h: 79596.0, Success/h: 79596.0, Error/h: 0
+Transaction: Search Request, Amount/h: 77736.0, Success/h: 77736.0, Error/h: 0
+Transaction: T01_homepage, Amount/h: 79596.0, Success/h: 79596.0, Error/h: 0
+Transaction: T02_search, Amount/h: 77736.0, Success/h: 77736.0, Error/h: 0
+Transaction: all, Amount/h: 105816.0, Success/h: 2784.0, Error/h: 103032.0
+HTTP Request - homepage
+min
+11495.0
+max
+12100.0
+Search Request
+min
+11400.0
+max
+12000.0
+T01_homepage
+min
+10521.25
+max
+11075.0
+T02_search
+min
+10545.0
+max
+11100.0
+all
+min
+16150.0
+max
+17000.0
